@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+    padding: 0;
+}
+.nabar_matn{
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+.nabar_matn h2{
+    font-size: 170px;
+}
