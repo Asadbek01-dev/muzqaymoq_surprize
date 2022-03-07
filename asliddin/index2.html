@@ -8,6 +8,29 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="stlye.css">
+  <script>
+    let defender =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
+        navigator.userAgent
+      );
+    if (defender) {
+      document.querySelector("link[href='/css/main.css']").href =
+        "../monile/main.css";
+      document.querySelector("link[href='stlye.css']").href =
+        "../monile/main.css";
+      document.querySelector("link[href='asliddin/stlye.css']").href =
+        "../monile/main.css";
+        document.querySelector("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']").href = "";
+    }
+    
+    
+  </script>
+  <script src="https://threejs.org/build/three.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+</head>
 </head>
 
 <body>
@@ -25,6 +48,7 @@
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
           aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="../img/menu.png" alt="">
           <span class="icon-bar icon-bar-1"></span>
           <span class="icon-bar icon-bar-2"></span>
           <span class="icon-bar icon-bar-3"></span>
@@ -49,15 +73,15 @@
             <li>
               <a href="#testimony">+998 55 500-13-33</a>
             </li>
-            <li><a href="https://www.instagram.com/surprise_icecream/"> <img src="img/Instagram.webp" alt=""></a>
+            <li><a href="https://www.instagram.com/surprise_icecream/"> <img id="socialicon", src="img/Instagram.webp" alt=""></a>
             </li>
             <li>
-              <a href="https://t.me/surprise_icecream"><img src="img/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6_mv2.webp"
+              <a href="https://t.me/surprise_icecream"><img id="socialicon", src="img/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6_mv2.webp"
                   alt=""></a>
             </li>
             <li>
               <a href="https://www.youtube.com/channel/UCxyWAjs-heIXKwB98yMRXWA/featured">
-                <img src="img/YouTube.webp" alt="">
+                <img id="socialicon", src="img/YouTube.webp" alt="">
               </a>
             </li>
           </ul>
@@ -65,16 +89,16 @@
       </nav>
     </div>
   </header>
-
-  <div class="orqa-fon">
-    <div class="sarlavha-2">
+ <div class="sarlavha-2">
       <h1>
         Yetkazib berish
       </h1>
       <h4>
         Biznes-Hamkor
-        </h6>
+        </h4>
     </div>
+  <div class="orqa-fon">
+   
     <div class="ims">
       <img src="asd.jpg">
       <div class="sarlavha12 text-focus-in">
@@ -94,7 +118,17 @@
     </div>
   </div>
 </div>
-
+<div class="manzili">
+  <a href="tel:+998555001333">+998 55 500-13-33</a>
+  <br>
+  <p>Andijon shahar, Industrial 12</p>
+  <p>©2022 Surprise</p>
+  <a href="https://www.instagram.com/surprise_icecream/"><img src="img/Instagram.webp" alt=""></a>
+  <a href="https://t.me/surprise_icecream"><img src="img/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6_mv2.webp"
+          alt=""></a>
+  <a href="https://www.youtube.com/channel/UCxyWAjs-heIXKwB98yMRXWA/featured"><img src="img/YouTube.webp"
+          alt=""></a>
+</div>
   <script src="/js/main.js"></script>
 </body>
 

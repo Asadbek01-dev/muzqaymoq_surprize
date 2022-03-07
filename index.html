@@ -9,6 +9,7 @@
 
   <!--  Styles  -->
   <link rel="stylesheet" href="asliddin/stlye.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -20,7 +21,12 @@
     if (defender) {
       document.querySelector("link[href='css/main.css']").href =
         "monile/main.css";
+        document.querySelector("link[href='asliddin/stlye.css']").href =
+        "monile/main.css";
+        document.querySelector("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']").href = "";
     }
+    
+    
   </script>
 <script src="https://threejs.org/build/three.js"></script>
 </head>
@@ -29,13 +35,14 @@
   <header class="main-header">
     
       <div class="containeer">
-        <nav class="navbar navbar-expand-lg main-nav px-0">
+        <nav id="navbar", class="navbar navbar-expand-lg main-nav px-0">
           <a class="navbar-brand" href="#">
                   <img src="img/logo1 tele.png" alt="#">
                 </a>
-                <div class="nabar_matn"><h2>Surprise Muzqaymoq Kompaniyasi</h2></div>
+                <div class="nabar_matn"><h2>Surprise <span>Muzqaymoq</span> Kompaniyasi</h2></div>
                 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/menu.png" alt="">
                           <span class="icon-bar icon-bar-1"></span>
                           <span class="icon-bar icon-bar-2"></span>
                           <span class="icon-bar icon-bar-3"></span>
@@ -60,14 +67,14 @@
               <li>
                 <a href="#testimony">+998 55 500-13-33</a>
               </li>
-              <li><a href="https://www.instagram.com/surprise_icecream/"> <img src="img/Instagram.webp" alt=""></a>
+              <li><a href="https://www.instagram.com/surprise_icecream/"> <img id="socialicon",src="img/Instagram.webp" alt=""></a>
               </li>
               <li>
-                <a href="https://t.me/surprise_icecream"><img src="img/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6_mv2.webp" alt=""></a>
+                <a href="https://t.me/surprise_icecream"><img id="socialicon",src="img/d3ee8f_53dfd24b6fc741c1bb871a75935b73e6_mv2.webp" alt=""></a>
               </li>
               <li>
                 <a href="https://www.youtube.com/channel/UCxyWAjs-heIXKwB98yMRXWA/featured">
-                  <img src="img/YouTube.webp" alt="">
+                  <img id="socialicon",src="img/YouTube.webp" alt="">
                 </a>
               </li>
             </ul>
@@ -148,7 +155,7 @@
 
     </div>
     <div class="login_form">
-      <div class="menu2 bounce-in-top">
+      <div id="munyu2" class="menu2 bounce-in-top">
       <h1>
           Biz bilan bog'lanish uchun        
       </h1>
@@ -177,7 +184,7 @@
           <input type="text" placeholder="Mavzu" id="name" required>
           <label for="phone">Murojaat *</label>
           <textarea name="fcomet" id="com" cols="100%" rows="5" class="form-control" placeholder="Murojaatigizni kiriting" ></textarea>
-          <button>Jo'natish</button>
+          <button>Yuborish</button>
       </form>
   </div>
 
@@ -197,21 +204,7 @@
     </div>
 
 
-
-    <!-- /.container -->
-  
-  <!--
-
-    Wow! What do you want to build?
-
-    You have so many possibilities right now... Looking for something to kick off?
-    How about a simple folio page to show off everything you're going to make!
-   
-  -->
-
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
+    <!-- mobile -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

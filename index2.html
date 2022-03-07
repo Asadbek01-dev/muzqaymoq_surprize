@@ -5,13 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Biz haqimizda</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="asliddin/stlye.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script>
+            let defender =
+              /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
+                navigator.userAgent
+              );
+            if (defender) {
+              document.querySelector("link[href='css/main.css']").href =
+                "css/about.css";
+            document.querySelector("link[href='asliddin/stlye.css']").href =
+                "css/about.css";
+            document.querySelector("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']").href = "";
+            }
+            
+            
+          </script>
+        <script src="https://threejs.org/build/three.js"></script>
 </head>
 
 <body>
@@ -24,11 +38,12 @@
                     <img src="img/logo1 tele.png" alt="#">
                 </a>
                 <div class="nabar_matn">
-                    <h2>Surprise Muzqaymoq Kompaniyasi</h2>
+                    <h2>Surprise <span>Muzqaymoq</span> Kompaniyasi</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
                     aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="img/menu.png" alt="">
                     <span class="icon-bar icon-bar-1"></span>
                     <span class="icon-bar icon-bar-2"></span>
                     <span class="icon-bar icon-bar-3"></span>
@@ -151,6 +166,10 @@
                 alt=""></a>
     </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
 </body>

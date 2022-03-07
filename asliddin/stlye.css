@@ -138,7 +138,6 @@
     text-align: center;
     height: 100vh;
     background-color: #000;
-    border-bottom: 3px solid blue;
 }
 .map iframe{
   width: 90%;
@@ -322,7 +321,6 @@
       .main-header {
         position: fixed;
         top: 2px;
-        border-bottom: 3px solid blue;
         left: 0;
         background-color: #000;
         z-index: 99;

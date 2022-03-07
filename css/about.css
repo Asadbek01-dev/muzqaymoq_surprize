@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+  .main-header{
+    width: 100%;
+    height: 7vh;
+    border-bottom: 2px solid red;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+  }
+  .navbar-brand img{
+    width: 100px;
+  }
+  .nabar_matn span{
+    display: none;
+  }
+  .nabar_matn{
+    text-align: center;
+    
+    align-items: center;
+      
+  }
+  .nabar_matn h2{
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .navbar-toggler .icon-bar .icon-bar-1{
+    background-color: aliceblue;
+  }
+  .navbar-toggler span{
+    color: aliceblue;
+  }
+  
+  #mainMenu li > a {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    background-color: black;
+    font-weight: 400;
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
+  }
+  
+  .main-header.fixed-nav #mainMenu li > a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .main-header .navbar-toggler:focus .icon-bar {
+    background-color: #fff;
+  }
+  
+  /*header ends*/
+  .header_bacround{
+  display: block;
+  margin: 120px 00px 0px 0px;
+  }
+  .header_bacround img{
+  width: 100%;
+  }
+  
+  .navbar-toggler img{
+    filter: invert(1);
+    width: 45px;
+    margin-right: 20px;
+  }
+  
+  #socialicon {
+    display: none;
+  }
+  
+  #navbar {
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+  }
+  .bacroun_tex p{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #fff;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  .bacroun_tex h1{
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+    font-family: cormarand;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  .bacroun_tex{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    margin: 31%;
+    z-index: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #canvas {
+    width: 100%;
+  }

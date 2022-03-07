@@ -342,7 +342,7 @@ body {
   font-size: 90px;
   font-family: cormarand;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
 }
 .bacroun_tex p{
@@ -457,4 +457,7 @@ body {
 .tashkil p{
   font-family: sans-serif;
   color: #fff;
+}
+.manzili{
+  display: none;
 }
