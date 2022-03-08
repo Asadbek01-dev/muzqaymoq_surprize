@@ -461,3 +461,55 @@ body {
 .manzili{
   display: none;
 }
+.aloqa{
+  text-align: center;
+  margin-top:110px;
+}
+.aloqa h2{
+  color: #fff;
+  font-size: 28px;
+
+}
+.aloqa img{
+  width: 20px;
+  padding: 0 1px;
+}
+.aloqa a{
+  text-decoration: none;
+  color: #fff;
+}
+.instg{
+  width: 200px;
+  margin: 14px 0;
+  padding: 7px 0;
+  border-radius: 7px;
+  background-color: #202129;
+}
+.ytb{
+  width: 200px;
+  margin: 14px 0;
+  padding: 7px 0;
+  border-radius: 7px;
+  background-color: #202129;
+}
+.telegrm{
+  width: 200px;
+  margin: 14px 0;
+  padding: 7px 0;
+  border-radius: 7px;
+  background-color: #202129;
+}
+.manz{
+  width: 200px;
+  margin: 14px 0;
+  padding: 7px 0;
+  border-radius: 7px;
+  background-color: #202129;
+}
+.telepn{
+  width: 200px;
+  margin: 14px 0;
+  padding: 7px 0;
+  border-radius: 7px;
+  background-color: #61bc1a;
+}

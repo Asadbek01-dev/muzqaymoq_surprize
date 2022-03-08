@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: black !important;
 }
 .navbar{
     padding: 0;
@@ -43,7 +43,7 @@ body {
   }
   
   #mainMenu li > a {
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 1px;
     text-align: center;
     color: #fff;
@@ -121,10 +121,6 @@ body {
   #canvas {
     width: 100%;
   }
-
-  .manzili {
-    display: none;
-  }
   #youtube img{
     margin-bottom: 25px;
   }
@@ -155,7 +151,7 @@ body {
   }
   .animat_img{
     position: absolute;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     height: 500px;
     width: 100%;
   }
@@ -315,4 +311,23 @@ body {
   #munyu2 a img{
     width: 40px;
     padding-top: 10px;
+  }
+  #manzil{
+    display: block;
+    width: 100%;
+    border-top: 3px solid red;
+    text-align: center;
+    height: 20vh;
+    padding-top: 30px;
+  }
+  #manzil a{
+    font-size: 40px;
+    color: #fff;
+  }
+  #manzil p{
+    font-size: 40px;
+    color: #fff;
+  }
+  #manzil a img{
+  width: 50px;
   }
