@@ -310,19 +310,7 @@ textarea::placeholder{
   padding: 10px;
 } 
 .map{
-  text-align: center;
-  display: block;
-  height: 33vh;
-  width: 100%;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-.map a{
-  font-size: 45px;
-}
-.map iframe{
-  width: 100%;
-  padding: 0 30px;
+  display: none !important;
 }
 .ims{
   text-align: center;
@@ -368,10 +356,10 @@ textarea::placeholder{
 .manzili{
   display: block;
   width: 100%;
-  border-top: 3px solid red;
+  border-top: 3px solid red !important;
   text-align: center;
   height: 20vh;
-  padding-bottom: 800px;
+  padding-top: 800px;
   padding-top: 30px;
 }
 .manzili a{
