@@ -34,12 +34,6 @@
     color: aliceblue;
     font-size: 40px;
   }
-  .navbar-toggler .icon-bar .icon-bar-1{
-    background-color: aliceblue;
-  }
-  .navbar-toggler span{
-    color: aliceblue;
-  }
   
   #mainMenu li > a {
     font-size: 30px;
@@ -59,9 +53,6 @@
     color: #fff;
     text-decoration: none;
   }
-  .main-header .navbar-toggler:focus .icon-bar {
-    background-color: #fff;
-  }
   
   /*header ends*/
   .header_bacround{
@@ -70,12 +61,20 @@
   }
   .header_bacround img{
   width: 100%;
+  z-index: 55;
   }
   
   .navbar-toggler img{
-    filter: invert(1);
     width: 45px;
-    margin-right: 20px;
+  }
+
+  .main-header{
+    width: 100%;
+    height: 7vh;
+    border-bottom: 2px solid red;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
   }
   
   #socialicon {
@@ -104,7 +103,6 @@
   .bacroun_tex{
     display: flex;
     position: absolute;
-    top: 150px;
     margin: 31%;
     z-index: 0;
     flex-direction: column;
@@ -115,4 +113,25 @@
   
   #canvas {
     width: 100%;
+  }
+
+  .manzili {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .manzili a {
+    font-size: 25px;
+  }
+
+  #youtube img{
+    margin-bottom: 25px;
+  }
+
+  .container nav {
+    display: flex;
+  }
+
+  .nabar_matn h2 {
+    display: none;
   }
