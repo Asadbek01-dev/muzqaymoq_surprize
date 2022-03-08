@@ -46,7 +46,7 @@ body{
 }
 
 #mainMenu li > a {
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 1px;
   text-align: center;
   color: #fff;
@@ -144,8 +144,8 @@ height: 82vh;
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 8px;
-  width: 8px;
+  height: 18px;
+  width: 18px;
   margin: 0 2px;
   background-color: rgb(255, 251, 251);
   border-radius: 50%;
@@ -299,38 +299,6 @@ height: 82vh;
   width: 40px;
   padding-top: 10px;
 }
-.slide-in-elliptic-bottom-bck{
-  display: block;
-  width: 600px;
-  text-align: center;
-  border: 2px solid red;
-  margin: 10% 20%;
-}
-.slide-in-elliptic-bottom-bck label{
-  color: #fff;
-  font-size: 45px;
-  padding: 10px;
-  display: block;
-}
-.slide-in-elliptic-bottom-bck input{
-  width: 400px;
-  padding: 10px;
-  font-size: 35px;
-  border: 2px solid red;
-  border-radius: 15px;
-  outline: none;
-}
-.slide-in-elliptic-bottom-bck textarea{
-  width: 400px;
-  border: 1px solid red; 
-  margin-left: 98px;
-  height: 150px !important;
-  font-size: 45px;
-}
-input::placeholder{
-  font-size: 30px;
-  padding: 10px;
-}
 body{
   background-color: black !important;
 }
@@ -338,21 +306,13 @@ textarea::placeholder{
   font-size: 30px;
   padding: 10px;
 }
-.slide-in-elliptic-bottom-bck button{
-  padding: 10px;
-  background-color: #f3baba;
-  font-size: 35px;
-  margin: 30px;
-  border: 1px solid red;
-  border-radius: 10px;
-}
 .map{
   text-align: center;
   display: block;
-  height: 50vh;
+  height: 33vh;
   width: 100%;
   margin-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .map a{
   font-size: 45px;
@@ -421,4 +381,63 @@ textarea::placeholder{
 }
 .manzili a img{
 width: 50px;
+}
+.aloqa{
+  text-align: center !important;
+  margin-top:110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aloqa h2{
+  color: #fff;
+  font-size: 80px;
+  padding: 20px;
+
+}
+.aloqa img{
+  width: 60px;
+  margin: 0 10px;
+}
+.aloqa a{
+  text-decoration: none;
+  font-size: 65px;
+  color: #fff;
+}
+.instg{
+  text-align: center;
+  width: 60%;
+  margin: 20px 0;
+  padding: 7px 0;
+  border-radius: 25px;
+  background-color: #202129;
+}
+.ytb{
+  width: 60%;
+  margin: 30px 0;
+  padding: 7px 0;
+  border-radius: 25px;
+  background-color: #202129;
+}
+.telegrm{
+  width: 60%;
+  margin: 30px 0;
+  padding: 7px 0;
+  border-radius: 25px;
+  background-color: #202129;
+}
+.manz{
+  width: 60%;
+  margin: 30px 0;
+  padding: 7px 0;
+  border-radius: 25px;
+  background-color: #202129;
+}
+.telepn{
+  width: 60%;
+  margin: 30px 0;
+  padding: 7px 0;
+  border-radius: 25px;
+  background-color: #61bc1a;
 }
