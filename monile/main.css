@@ -144,8 +144,8 @@ height: 82vh;
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 8px;
-  width: 8px;
+  height: 18px;
+  width: 18px;
   margin: 0 2px;
   background-color: rgb(255, 251, 251);
   border-radius: 50%;
