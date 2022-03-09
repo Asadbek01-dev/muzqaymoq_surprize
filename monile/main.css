@@ -328,13 +328,13 @@ textarea::placeholder{
   width: 100%;
   height: auto;
 }
-/* .sarlavha-2{
+.sarlavha-2{
   text-align: center;
   padding-top: 180px;
   width: 100%;
   display: block;
   height: 10vh;
-} */
+}
 .sarlavha12.text-focus-in h2{
   font-size: 50px;
   color: #fff;
@@ -344,7 +344,7 @@ textarea::placeholder{
   padding: 5px 20px;
   color: #fff;
 }
-/* .sarlavha-2 h1{
+.sarlavha-2 h1{
   color: #fff;
   font-size: 60px;
 }
@@ -352,9 +352,6 @@ textarea::placeholder{
   padding-top: 10px;
   color: #fff;
   font-size: 60px;
-} */
-.arlavha-2{
-  display: none;
 }
 .manzili{
   display: block;
