@@ -361,6 +361,7 @@ textarea::placeholder{
   height: 20vh;
   padding-top: 800px;
   padding-top: 60px;
+  margin-top: 20px;
 }
 .manzili a{
   font-size: 40px;
