@@ -360,8 +360,7 @@ textarea::placeholder{
   text-align: center;
   height: 20vh;
   padding-top: 800px;
-  padding-top: 60px;
-  margin-top: 20px;
+  padding-top: 0px;
 }
 .manzili a{
   font-size: 40px;
