@@ -363,6 +363,7 @@ textarea::placeholder{
   padding-top: 0px;
 }
 .manzili a{
+  padding-top: 20px;
   font-size: 40px;
   color: #fff;
 }
