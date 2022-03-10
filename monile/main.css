@@ -358,9 +358,9 @@ textarea::placeholder{
   width: 100%;
   border-top: 3px solid red !important;
   text-align: center;
-  height: 20vh;
+  height: 25vh;
   padding-top: 100px;
-  margin-top: 140px;
+  margin-top: 130px;
 }
 .manzili a{
   font-size: 40px;
