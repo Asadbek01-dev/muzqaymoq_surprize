@@ -359,8 +359,7 @@ textarea::placeholder{
   border-top: 3px solid red !important;
   text-align: center;
   height: 25vh;
-  padding-top: 1000px;
-  padding-top: 0px;
+  padding-top: 100px;
 }
 .manzili a{
   padding-top: 20px;
