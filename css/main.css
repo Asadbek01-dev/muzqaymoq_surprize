@@ -14,18 +14,22 @@
 }
   body{
     
-    background-color: #000;
+    background-color: #f5f5f5;
   }
   #mainMenu li > a {
     font-size: 12px;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(20, 20, 20);
     font-weight: 400;
     position: relative;
     z-index: 1;
     text-decoration: none;
   }
-  
+  #socialicon{
+    width: 20px;
+    color: rgb(20, 20, 20);
+    filter: invert(0.8);
+  }
   .main-header.fixed-nav #mainMenu li > a {
     color: #fff;
     text-decoration: none;
@@ -62,15 +66,26 @@
     height: 8px;
     width: 8px;
     margin: 0 2px;
-    background-color: rgb(255, 251, 251);
+    background-color: #d0b8ac;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
+  .map{
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+    justify-content: center;
+  }
+  #gmap_canvas{
+    padding-top: 40px;
+    margin: 0 40px;
+    text-align: center;
+  }
   .animat_img{
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color: #f5f5f5;
   }
   
   .active {
@@ -107,7 +122,7 @@
     content: "";
     width: calc(100% - 1px);
     height: 1px;
-    background: #fff;
+    background: rgb(20, 20, 20);
     bottom: -6px;
     left: 0;
   
@@ -146,9 +161,9 @@
     box-sizing: border-box;
     position: fixed;
     top: 0px;
-    border-bottom: 3px solid rgba(235, 23, 23, 0.979);
+    border-bottom: 1px solid rgba(235, 23, 23, 0.979);
     left: 0;
-    background-color: #000;
+    background-color: #f5ebe0;
     z-index: 99;
     width: 100%;
     -webkit-transition: all 0.4s ease;
@@ -283,7 +298,7 @@
     /*header ends*/
   }
 .nabar_matn h2{
-    color: #fff;
+    color: rgb(29, 29, 29);
     font-size: 20px;
 }
 .header_bacround{
@@ -315,30 +330,35 @@ body {
   margin-top: 50px;
   align-items: center;
   position: absolute;
-  margin: 40vh 40%;
+  margin: 40vh 13%;
   top: 0;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  z-index: 999;
+  z-index: 0;
 
 }
-
 #canvas{
+  background-color: #f5f5f5;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#canvas img{
   display: flex;
-  margin-top: 50px;
   align-items: center;
-  background-color: #000;
+  background-color: #f5f5f5;
   position: static;
+  margin: 50px 47%;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  width: 100%;
-  height: 600px;
+  width: 45%;
+  height:  70vh;
   overflow: hidden;
 }
 .bacroun_tex h1{
-  color: white;
+  color: rgb(29, 29, 29);
   font-size: 90px;
   font-family: cormarand;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -348,9 +368,9 @@ body {
 .bacroun_tex p{
   font-family: sans-serif;
   font-size: 20px;
-  color: #fff;
+  color: rgb(29, 29, 29);
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .turlari{
   text-align: center;
@@ -361,12 +381,12 @@ body {
   padding-top: 30px;
   font-family: cormarand;
   font-size: 40px;
-  color: #fff;
+  color: rgb(29, 29, 29);
 }
 .turlari p{
   font-family: sans-serif;
   font-size: 18px;
-  color: #fff;
+  color: rgb(29, 29, 29);
 }
 .mySlides {
   display: none;
@@ -447,17 +467,17 @@ body {
   text-align: center;
   align-items: center;
   padding-top: 150px;
-  background-color: #000;
+  background-color: #f5f5f5;
   padding-bottom: 20px;
 }
 .tashkil h1{
-  color: #fff;
+  color: rgb(20, 20, 20);;
   font-family: cormarand;
 }
 
 .tashkil p{
   font-family: sans-serif;
-  color: #fff;
+  color: rgb(20, 20, 20);
 }
 .manzili{
   display: none;
@@ -496,7 +516,7 @@ body {
 .telegrm{
   width: 200px;
   margin: 14px 0;
-  padding: 7px 0;
+  padding: 7px 0;   
   border-radius: 7px;
   background-color: #202129;
 }

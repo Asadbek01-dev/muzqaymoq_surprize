@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color: black;
+    background-color: #f5f5f5;
     
 
 }
@@ -25,52 +25,7 @@
     display: flex;
     flex-direction: column;
 }
-
-
-.login_form label{
-    padding-top: 15px;
-    padding-bottom: 5px;
-    color: #fff;
-}
-.login_form form input, button {
-    height: 50px;
-    padding: 3px;
-    padding-left: 10px;
-    outline: none;
-    border: 1px solid #333333;
-}
-
-.login_form textarea {
-    height: 130px;
-    padding: 3px;
-    padding-left: 10px;
-    outline: none;
-    border: 1px solid #333333;
-}
-
-
-.login_form form input::placeholder {
-    font-size: 17px;
-}
-
-.login_form form textarea::placeholder {
-    font-size: 17px;
-}
-
-.login_form form input:focus {
-    border: 1px solid rgb(100, 167, 255);
-}
-.login_form button {
-    margin-top: 20px;
-    border: none;
-    background-color: #fff;
-    color: black;
-    font-size: 18px;
-}
-
-
- 
-.menu2{
+ .menu2{
     text-align: center;
     padding-top: 140px;
 }
@@ -116,18 +71,17 @@
 .login_form .menu2 h1{
     justify-content: center;
     text-align: center;
-    color: #fff;
 }
 .login_form .menu2 p{
     text-align: center;
     padding-top: 18px;
-    color: #fff;
+    color: rgb(20, 20, 20);
     padding-bottom: 18px;
 }
 
 .login_form .menu2 a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(20, 20, 20);
     padding-top: 18px;
 
   
@@ -188,9 +142,16 @@
   }
 }
 .orqa-fon{
-        background-color: black;
+        background-color: #f5f5f5 !important;
         width: 100%;
         height: 100vh;
+}
+.ims {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.ims img{
+  width: 850px;
 }
 /* .sarlavha-2{
         justify-content: center;
@@ -204,29 +165,39 @@
 } */
 .sarlavha-2{
   display: none;
+  background-color: #f5f5f5;
 }
 .ims {
         width: auto; 
         height: auto;
+        background-color: #f5f5f5;
         display: flex;
-        padding-left: 5%;
-        
+        padding: 0;
+        margin: 0;
 }
 .sarlavha12 {
         color: #fff;
         justify-content: center;
         align-items: center;
-        padding-left: 15%;
-        padding-top: 15%;
+        padding-left: 5%;
 }
 .sarlavha12 h2 {
-        padding-top: 80px;
+  padding-top: 80px;
+        color: rgb(20, 20, 20);
         text-align: left;
         padding-bottom: 70px;
+}
+.yetkazibberishh1{
+  text-align: center;
+  margin-top: 10%;
+}
+.yetkazibberishh1 h1{
+  color: rgb(20, 20, 20);
 }
 .sarlavha12 p{
         padding-right: 38%;
         padding-top: 8px;
+        color: rgb(20, 20, 20);
 }
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -262,12 +233,12 @@
       }
       body{
         display: block;
-        background-color: #000;
+        background-color: #f5f5f5 !important;
       }
       #mainMenu li > a {
         font-size: 12px;
         letter-spacing: 1px;
-        color: #fff;
+        color: rgb(20, 20, 20);
         font-weight: 400;
         position: relative;
         z-index: 1;
@@ -288,10 +259,9 @@
         content: "";
         width: calc(100% - 1px);
         height: 1px;
-        background: #fff;
+        background: rgb(20, 20, 20);
         bottom: -6px;
         left: 0;
-      
         -webkit-transform: scale(0, 1);
         -ms-transform: scale(0, 1);
         transform: scale(0, 1);
@@ -320,12 +290,18 @@
       .containeer{
           margin: 0 50px;
       }
+      #socialicon{
+        width: 20px;
+        color: rgb(20, 20, 20);
+        filter: invert(0.8);
+      }
       
       .main-header {
+        border-bottom: 1px solid red;
         position: fixed;
         top: 2px;
         left: 0;
-        background-color: #000;
+        background-color: #f5ebe0;
         z-index: 99;
         width: 100%;
         -webkit-transition: all 0.4s ease;
@@ -461,7 +437,7 @@
         /*header ends*/
       }
     .nabar_matn h2{
-        color: #fff;
+        color: rgb(29, 29, 29);;
         font-size: 22px;
     }
     .header_bacround{
@@ -503,4 +479,79 @@
     .bacroun_tex p{
       font-size: 20px;
     }
+    .aloqa{
+      text-align: center;
+      margin-top:110px;
+    }
+    .aloqa h2{
+      color: #fff;
+      font-size: 28px;
     
+    }
+    .aloqa img{
+      width: 20px;
+      padding: 0 1px;
+    }
+    .aloqa a{
+      text-decoration: none;
+      color: #fff;
+    }
+    .instg{
+      width: 200px;
+      margin: 14px 0;
+      padding: 7px 0;
+      border-radius: 7px;
+      background-color: #202129;
+    }
+    .ytb{
+      width: 200px;
+      margin: 14px 0;
+      padding: 7px 0;
+      border-radius: 7px;
+      background-color: #202129;
+    }
+    .telegrm{
+      width: 200px;
+      margin: 14px 0;
+      padding: 7px 0;
+      border-radius: 7px;
+      background-color: #202129;
+    }
+    .manz{
+      width: 200px;
+      margin: 14px 0;
+      padding: 7px 0;
+      border-radius: 7px;
+      background-color: #202129;
+    }
+    .telepn{
+      width: 200px;
+      margin: 14px 0;
+      padding: 7px 0;
+      border-radius: 7px;
+      background-color: #61bc1a;
+    }
+    .aloqa h2{
+      color: rgb(20, 20, 20);
+    }
+    .login_form h2{
+      color: rgb(20, 20, 20);
+    }
+    .manzili{
+      padding-top: 10px;
+      width: 100%;
+      height: 25vh;
+      border-top: 1px solid rgba(235, 23, 23, 0.979);
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+    .manzili a{
+      text-decoration: none;
+      color: rgb(20, 20, 20);
+    }
+    .manzili p{
+      color: rgb(20, 20, 20);
+    }
+    .manzili img{
+      filter: invert(0.8);
+    }

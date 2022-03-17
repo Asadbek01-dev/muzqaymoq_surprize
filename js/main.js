@@ -23,15 +23,15 @@ window.replainSettings = { id: '311e5de3-4347-42d4-bab5-7e0e30430ea1' };
 var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 })('https://widget.replain.cc/dist/client.js');
 
-let camera
-let scene
-let renderer
-let material
-let mouseX = 0
-let mouseY = 0
-let windowHalfX = window.innerWidth / 2
-let windowHalfY = window.innerHeight / 2
-container = document.getElementById( 'canvas' );
+// let camera
+// let scene
+// let renderer
+// let material
+// let mouseX = 0
+// let mouseY = 0
+// let windowHalfX = window.innerWidth / 2
+// let windowHalfY = window.innerHeight / 2
+// container = document.getElementById( 'canvas' );
 
 init()
 animate()

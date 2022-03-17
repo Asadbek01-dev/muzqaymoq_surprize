@@ -2,12 +2,8 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 auto;
-    background-color: black;
 }
 
-body {
-  background-color: black !important;
-}
 .navbar{
     padding: 0;
     margin: 0;
@@ -16,8 +12,8 @@ body {
   .main-header{
     width: 100%;
     height: 7vh;
-    border-bottom: 2px solid red;
-    background-color: black;
+    border-bottom: 1px solid red;
+    background-color: #f5ebe0 !important;
     position: fixed;
     z-index: 1;
   }
@@ -37,19 +33,22 @@ body {
     align-items: center;
   }
   .nabar_matn h2{
-    color: aliceblue;
+    color: rgb(20, 20, 20);
     font-size: 15px;
     padding-top: 10px;
   }
   
+  #mainMenu ul {
+    background-color: #f5f5f5;
+  }
   #mainMenu li > a {
     font-size: 14px;
     letter-spacing: 1px;
     text-align: center;
-    color: #fff;
+    color: rgb(20, 20, 20);
     padding: 2px;
     display: block;
-    background-color: black;
+    background-color: #f5f5f5;
     font-weight: 400;
     position: relative;
     z-index: 0;
@@ -73,6 +72,7 @@ body {
   
   .navbar-toggler img{
     width: 20px;
+    filter: invert(0.8);
   }
 
   .main-header{
@@ -118,7 +118,7 @@ body {
     text-align: center;
   }
   
-  #canvas {
+  #canvas img {
     width: 100%;
   }
   #youtube img{
@@ -137,11 +137,11 @@ body {
     align-items: center;
   }
   .tashkil h1{
-    color: #fff;
+    color: rgb(20, 20, 20);
     font-size: 30px;
   }
   .tashkil p{
-    color: #fff;
+    color: rgb(20, 20, 20);
     padding: 30px;
   }
   .animat_img{
@@ -152,7 +152,6 @@ body {
   .animat_img{
     position: absolute;
     /* margin-bottom: 100px; */
-    height: 500px;
     width: 100%;
   }
   .dot {
@@ -206,7 +205,8 @@ body {
     width: 200px;
   } */
   .main-header .navbar-brand img {
-    max-width: 90px;
+    max-width: 80px;
+    top: -8px;
     animation: fadeInLeft 0.4s both 0.4s;
   }
   
@@ -289,7 +289,7 @@ body {
     display: block;
     width: 100%;
     height: 80vh;
-    background-color: black;
+    background-color: #f5f5f5;
   }
   #munyu2{
     padding-top: 30px;
@@ -315,10 +315,10 @@ body {
   #manzil{
     display: block;
     width: 100%;
-    border-top: 3px solid red;
-    text-align: center;
-    height: 20vh;
-    padding-top: 30px;
+    border-top: 1px solid red;
+    text-align: center !important;
+    height: 1vh;
+    margin-top: 330px;
   }
   #manzil a{
     font-size: 40px;
@@ -331,3 +331,12 @@ body {
   #manzil a img{
   width: 50px;
   }
+  .manzili{
+    text-align: center;
+  }
+  .manzili img{
+    filter: invert(0.8);
+  }
+.pyudfon{
+  color: rgb(20, 20, 20) !important;
+}
