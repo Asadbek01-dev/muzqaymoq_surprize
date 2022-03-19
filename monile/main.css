@@ -89,14 +89,14 @@ height: 82vh;
 }
 .bacroun_tex p{
   font-family: sans-serif;
-  font-size: 40px;
-  color: #fff;
+  font-size: 33px;
+  color: #345007;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .bacroun_tex h1{
-  color: rgb(255, 255, 255);
-  font-size: 110px;
+  color: #2e4705;
+  font-size: 90px;
   font-family: cormarand;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -105,7 +105,7 @@ height: 82vh;
   display: flex;
   position: absolute;
   top: 8%;
-  margin: 0% 31%;
+  margin: 0% 5%;
   z-index: 0;
   flex-direction: column;
   justify-content: center;
