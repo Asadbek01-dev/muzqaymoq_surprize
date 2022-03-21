@@ -71,6 +71,7 @@
 .login_form .menu2 h1{
     justify-content: center;
     text-align: center;
+    color: rgb(20, 20, 20);;
 }
 .login_form .menu2 p{
     text-align: center;
