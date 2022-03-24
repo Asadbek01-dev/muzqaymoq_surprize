@@ -33,6 +33,7 @@ body{
 .nabar_matn h2{
   color: rgb(20, 20, 20);
   font-size: 45px;
+  margin-right: 100px;
 }
 .navbar-toggler .icon-bar .icon-bar-1{
   background-color: aliceblue;
@@ -74,8 +75,8 @@ height: 82vh;
 }
 
 .navbar-toggler img{
-  width: 45px;
-  margin-right: 20px;
+  width: 60px;
+  margin-right: 40px;
 }
 
 #socialicon {
@@ -119,8 +120,9 @@ height: 82vh;
   margin-top: 13%;
 }
 #logopng{
-  margin-left: 4%;
-  width: 150px !important;
+  max-width: 270px !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -193,7 +195,6 @@ height: 82vh;
   width: 200px;
 } */
 .main-header .navbar-brand img {
-  max-width: 160px;
   padding-top: 0 !important;
   animation: fadeInLeft 0.4s both 0.4s;
 }

@@ -288,7 +288,7 @@
         background: #000;
       }
       .containeer{
-          margin: 0 50px;
+          margin-right: 50px;
       }
       #socialicon{
         width: 20px;
@@ -331,7 +331,7 @@
         width: 200px;
       } */
       .main-header .navbar-brand img {
-        max-width: 90px;
+        max-width: 220px;
         animation: fadeInLeft 0.4s both 0.4s;
       }
       /* main-header end */
@@ -342,6 +342,9 @@
           display: block !important;
           padding: 0;
           clear: both;
+        }
+        .nabar_matn span{
+          display: none;
         }
       
         .navbar-toggler {

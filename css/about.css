@@ -18,10 +18,10 @@
     z-index: 1;
   }
   .navbar-brand img{
-    width: 65px;
     position: absolute;
-    left: 5px;
-    top: 0;
+    z-index: 999;
+    left: 0px;
+    top: 5px;
     margin-bottom: 5px;
     background-color: transparent !important;
   }
@@ -208,8 +208,9 @@
     width: 200px;
   } */
   .main-header .navbar-brand img {
-    max-width: 80px;
-    top: -8px;
+    max-width: 120px !important;
+    margin-top: 5px;
+    
     animation: fadeInLeft 0.4s both 0.4s;
   }
   

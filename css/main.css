@@ -162,7 +162,8 @@
     background: #000;
   }
   .containeer{
-      margin: 0 50px;
+      margin-right: 50px;
+      margin-left: 10px;
   }
   
   .main-header {
@@ -199,11 +200,15 @@
   .navbar-brand {
     color: #fff;
   }
+  .nabar_matn span{
+    display: none;
+  }
   /* .navbar-brand img{
     width: 200px;
   } */
   .main-header .navbar-brand img {
-    max-width: 90px;
+    max-width: 220px;
+    right: 0;
     animation: fadeInLeft 0.4s both 0.4s;
   }
   /* main-header end */
